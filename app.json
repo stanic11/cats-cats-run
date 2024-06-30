@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/library/library",
+    "pages/cat-Inf/cat-Inf",
+    "pages/map/map"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "iconPath": "/resource/icon/home.png",
+        "selectedIconPath": "/resource/icon/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/library/library",
+        "iconPath": "/resource/icon/cats.png",
+        "selectedIconPath": "/resource/icon/cats.png",
+        "text": "猫猫档案"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "/resource/icon/map.png",
+        "selectedIconPath": "/resource/icon/map.png",
+        "text": "猫猫地图"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "瓜大喵记",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
