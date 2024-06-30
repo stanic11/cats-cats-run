@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-button": "../../dist/button",
+    "van-image": "../../dist/image",
+    "van-tab": "../../dist/tab",
+    "van-tabs": "../../dist/tabs",
+    "van-dialog": "../../dist/dialog"
+  }
+}

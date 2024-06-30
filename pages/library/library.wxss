@@ -1,0 +1,15 @@
+@import "../library/tmpl/tmpl.wxss";
+
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.search-bar {
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}

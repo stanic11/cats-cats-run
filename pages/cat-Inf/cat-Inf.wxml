@@ -1,0 +1,41 @@
+<view style="display:flex; justify-content:center; align-items:center;">
+  <image mode="aspectFit" class="cat-image" src="{{catUrl}}" />
+</view>
+
+
+<view>
+  <view style='flex-shrink:0; box-sizing:border-box; width:500rpx;'>
+    <view class="cat-card" style="margin-left: 10rpx;">{{catName}}</view>
+  </view>
+</view>
+
+<text> \n </text>
+
+<view style="display: flex; flex-direction: column;">
+  <view style="display: flex; align-items: center;">
+    <view class="character" style="margin-left: 10rpx; width: 200rpx;">毛色</view>
+    <view class="character" style="margin-left: 30rpx; width: 200rpx;">性别</view>
+  </view>
+  <view style="display: flex; align-items: center;">
+    <view class="description" style="margin-left: 10rpx; width: 200rpx;">{{catColor}}</view>
+    <view class="description" style="margin-left: 30rpx; width: 200rpx;">{{catGender}}</view>
+  </view>
+  <text> \n </text>
+  <view style="display: flex; align-items: center;">
+    <view class="character" style="margin-left: 10rpx; width: 200rpx;">绝育情况</view>
+    <view class="character" style="margin-left: 30rpx; width: 200rpx;">绝育时间</view>
+  </view>
+  <view style="display: flex; align-items: center;">
+    <view class="description" style="margin-left: 10rpx; width: 200rpx;">{{catNeutered}}</view>
+    <view class="description" style="margin-left: 30rpx; width: 200rpx;">{{catDate}}</view>
+  </view>
+  <text> \n </text>
+  <view style="display: flex; align-items: center;">
+    <view class="character" style="margin-left: 10rpx; width: 200rpx;">状况</view>
+    <view class="character" style="margin-left: 30rpx; width: 200rpx;">性格</view>
+  </view>
+  <view style="display: flex; align-items: center;">
+    <view class="description" style="margin-left: 10rpx; width: 200rpx;">{{catHealth}}</view>
+    <view class="description" style="margin-left: 30rpx; width: 200rpx;">{{catPersonality}}</view>
+  </view>
+</view>

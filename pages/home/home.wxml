@@ -1,0 +1,30 @@
+<!--猫咪动态模板-->
+<template>
+  <view class="catsHead">
+    <van-image class="catsProfile"></van-image>
+    <text>{catsName}</text>
+  </view>
+  <view class="catsMovement">
+    <text>{catsDoing}</text>
+  </view>
+</template>
+
+<image src="/resource/banner/background.png" class="bgImage"></image>
+<van-dialog id="van-dialog" />
+<view class="container">
+  <!-- 轮播图 -->
+  <!--
+  <swiper indicator-dots="true" autoplay="true" interval="3500" circular="true">
+    <swiper-item wx:key="index" wx:for="{{swiperMaps}}">
+      <image src="{{item}}" class="slideImage"></image>
+    </swiper-item>
+  </swiper>-->
+  <text> \n </text><text> \n </text><text> \n </text><text> \n </text>
+  <text> \n </text><text> \n </text><text> \n </text><text> \n </text>
+  <text> \n </text><text> \n </text><text> \n </text><text> \n </text>
+  <text> \n </text><text> \n </text><text> \n </text><text> \n </text>
+  <text> \n </text><text> \n </text>
+  <van-icon class="updateImage" bind:click="takePhoto" name="/resource/icon/camera.png" size="50px">
+  </van-icon>
+  <text id="copyright">nwpu cats cats run by yjp</text>
+</view>

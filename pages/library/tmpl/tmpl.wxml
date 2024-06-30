@@ -1,0 +1,9 @@
+<!--猫咪头像与名称模板-->
+<template name="cats-Inf-TMPL">
+  <view class="cats-information-button" catch:tap="toCatPage" data-catsname="{{catsName}}">
+    <van-image round width="85rpx" height="85rpx" src="{{catsImage}}"></van-image>
+    <view class="cat-name">{{catsName}}</view>
+    <view></view>
+    <!--该行用于使item对齐！-->
+  </view>
+</template>

@@ -1,0 +1,47 @@
+<import src="../library/tmpl/tmpl" />
+
+<view class="search-bar">
+  <!--搜索框功能-->
+  <van-image width="50" height="50" src="{{searchImage}}"></van-image>
+  <input type="text" placeholder="请输入猫咪名称" bindconfirm="searchCats" placeholder-class="placeholder" />
+</view>
+
+<view class="tabs">
+  <van-tabs active="1" animated color="#B0C4DE" border sticky>
+    <van-tab title="在读">
+      <text style="color: #ffffff;">\n</text>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/1.jpg', catsName: '饼干'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/2.jpg', catsName: '斑马'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/3.jpg', catsName: '手套'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/4.jpg', catsName: '爪子'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/5.jpg', catsName: '影子'}}" bindtap="toCatPage"></template>
+    </van-tab>
+
+    <van-tab title="毕业">
+      <text style="color: #ffffff;">\n</text>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/6.jpg', catsName: '雪球'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/7.jpg', catsName: '老虎'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/8.jpg', catsName: '袜子'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/9.jpg', catsName: '雾气'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/10.jpg', catsName: '胡须'}}" bindtap="toCatPage"></template>
+    </van-tab>
+
+    <van-tab title="休学">
+      <text style="color: #ffffff;">\n</text>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/11.jpg', catsName: '小梦'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/12.jpg', catsName: '毛球'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/13.jpg', catsName: '月亮'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/14.jpg', catsName: '钱宝'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/15.jpg', catsName: '馒头'}}" bindtap="toCatPage"></template>
+    </van-tab>
+
+    <van-tab title="喵星">
+      <text style="color: #ffffff;">\n</text>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/16.jpg', catsName: '汤圆'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/17.jpg', catsName: '可乐'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/18.jpg', catsName: '电饭煲'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/19.jpg', catsName: '蛋黄'}}" bindtap="toCatPage"></template>
+      <template is="cats-Inf-TMPL" data="{{catsImage: '/resource/cats/profile/20.jpg', catsName: '橘子'}}" bindtap="toCatPage"></template>
+    </van-tab>
+  </van-tabs>
+</view>
